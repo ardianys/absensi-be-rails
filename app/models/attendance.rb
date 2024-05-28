@@ -1,3 +1,4 @@
 class Attendance < ApplicationRecord
-  has_one_attached :photo
+  mount_uploader :photo
+  # has_image_attached :photo
 end
